@@ -1,0 +1,92 @@
+body{
+    font-family: 'Klee One', cursive;
+    
+    
+}
+.page{
+    width: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.head-photo{
+    width: 200px;
+    margin: 50px auto 0; /*距離上面50px 置中 距離下面0px*/
+}
+.head-photo img{
+    width: 100%;
+    height: auto;
+    /* border: 0.5px solid #333; */
+    border-radius: 9999px;/*讓圖片有圓弧狀*/
+    transition-property: all;
+    transition-duration: 0.5ms;
+}
+.head-photo:hover{
+    background:hsla(0, 0%, 0%, 0.015)
+    width: 200px; 
+}
+h1{
+    font-family: 'Klee One', cursive;/*上網複製文字下來就可以了*/
+    font-size: 30px;
+    color: rgb(73, 60, 50);
+    text-align: center;
+}
+
+p{
+    font-family: 'Klee One', cursive;
+    font-size: 20px;
+    color: rgb(73, 60, 50);
+    text-align: center;
+}
+.btn{
+    display: block;
+    border: 0.5px solid #333;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Klee One', cursive;
+    font-size: 25px;
+    color: rgb(73, 60, 50);
+    text-align: center;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.btn:hover{
+    background-color: rgb(226, 220, 211)
+    
+    
+}
+.photo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 9px;
+    padding: top 40px;}
+
+.photo-item-img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+/* .buttom{
+    width: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.down-photo{
+    width: 450px;
+    margin: 20px auto 0; 
+}
+.down-photo img{
+    width: 100%;
+    height: auto;
+}
+
+.down-photo:hover .overlay{
+    /* background-image: url(photo18.jpg); */
+    display: flex;
+} */
+
