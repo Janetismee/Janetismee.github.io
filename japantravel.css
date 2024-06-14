@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+.photo{
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    padding-top: 20px;
+    padding-left: 450px;
+    
+}
+.photo-item{
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.photo-item img{
+    width: 100%;
+    height: auto
+    margin: 0 auto;   
+}
+
+nav{
+    background: #e9e5e5;
+}
+
+a{
+    display: inline;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(73, 60, 50);
+    position:relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+a:hover{
+    color: tan
+}

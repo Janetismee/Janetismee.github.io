@@ -1,7 +1,14 @@
-body{
-    font-family: 'Klee One', cursive;
-    /* background-color: rgb(232, 225, 217); */
+body {
+    /* font-family: 'Arial', cursive; */
+    font-family: Arial, sans-serif;
+      
+    
+    /* background-color: rgb(232, 225, 217);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(1, 300px);  */
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 5px 5px 5px #f6ecec
 }

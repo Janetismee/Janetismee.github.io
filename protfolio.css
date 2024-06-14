@@ -1,0 +1,31 @@
+
+body {
+    margin: 0;
+}
+.photo{
+    display: grid;
+    margin: 50px auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding-top: 30px;
+    
+}
+
+.photo-item img{
+    width: 100%;
+    height: auto
+    margin: 0 auto;   
+}
+
+a{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(73, 60, 50);
+    position: absolute;
+    background-color: rgb(243, 243, 243);
+    
+}
+a:hover{
+    color: tan
+}
