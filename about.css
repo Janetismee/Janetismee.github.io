@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(73, 60, 50);
+}
+
+
+
+.photo{
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    padding-top: 20px;
+    padding-left: 450px;
+    
+}
+.photo-item{
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-item img{
+    width: 100%;
+    height: auto
+    margin: 0 auto;   
+}
+
+a{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(73, 60, 50);
+    position: absolute;
+    background-color: rgb(243, 243, 243);
+}
+a:hover{
+    color: tan
+}
+
